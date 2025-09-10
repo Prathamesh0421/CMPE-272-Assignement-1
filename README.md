@@ -20,7 +20,11 @@ source venv/bin/activate    # macOS/Linux
 pip install -r requirements.txt
 ```
 
-1. User Service 
+1. User Service
+   ```
+   python3 user_service.py
+   ```
+   
    - Runs on port 5001
      
      <img width="989" height="185" alt="user_service_running" src="https://github.com/user-attachments/assets/f10666ad-7664-4eb8-bba7-7490dfd47687" />
@@ -31,7 +35,11 @@ pip install -r requirements.txt
 
 <img width="994" height="259" alt="user_service" src="https://github.com/user-attachments/assets/7947bc53-ea85-4a6b-a05d-00a35e624392" />
 
-2. **Order Service**  
+2. Order Service
+   ```
+   python3 order_service.py
+   ```
+   
    - Runs on port 5002
      
   <img width="993" height="190" alt="order_service_running" src="https://github.com/user-attachments/assets/8f0355cf-663a-4841-9083-7db49e6a3041" />
@@ -40,6 +48,7 @@ pip install -r requirements.txt
    - Fetches user details from the User Service when retrieving an order
   
      <img width="989" height="265" alt="order_service" src="https://github.com/user-attachments/assets/c26fb25d-e016-416c-8df9-96a174ddd55d" />
+
 
 
 
