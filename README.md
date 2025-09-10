@@ -31,9 +31,9 @@ pip install -r requirements.txt
 
    - Manages user data (create, retrieve)  
    - Stores data in an in-memory dictionary
-   - Endpoints:
-      --GET /users/<id> → Retrieve user by ID.
-      --POST /users → Create a new user.
+   - Endpoints:    
+      - GET /users/<id> → Retrieve user by ID.
+      - POST /users → Create a new user.
 
 
 <img width="994" height="259" alt="user_service" src="https://github.com/user-attachments/assets/7947bc53-ea85-4a6b-a05d-00a35e624392" />
@@ -51,6 +51,7 @@ pip install -r requirements.txt
    - Fetches user details from the User Service when retrieving an order
   
      <img width="989" height="265" alt="order_service" src="https://github.com/user-attachments/assets/c26fb25d-e016-416c-8df9-96a174ddd55d" />
+
 
 
 
