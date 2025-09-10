@@ -2,7 +2,7 @@
 ```markdown
 # Microservices Architecture Assignment (Python + Flask)
 
-This repository contains a example of **Microservices Architecture** implemented using **Python** and **Flask**.  
+This repository contains a example of Microservices Architecture implemented using Python and Flask.  
 The project demonstrates how two independent services can communicate with each other using HTTP.
 
 ---
@@ -10,29 +10,18 @@ The project demonstrates how two independent services can communicate with each 
 ## 📖 Assignment Description
 
 The goal of this assignment is to understand the basics of microservices design.  
-We build **two services**:
+We build two services:
 
 1. **User Service**  
-   - Runs on port **5001**  
+   - Runs on port 5001  
    - Manages user data (create, retrieve)  
    - Stores data in an in-memory dictionary  
 
 2. **Order Service**  
-   - Runs on port **5002**  
+   - Runs on port 5002  
    - Manages order data (create, retrieve)  
    - Fetches user details from the User Service when retrieving an order  
 
-
-## 📂 Project Structure
-```
-
-microservices-architecture-assignment/
-├─ user\_service.py       # User Service (port 5001)
-├─ order\_service.py      # Order Service (port 5002)
-├─ requirements.txt      # Dependencies
-└─ README.md             # Project documentation
-
-````
 
 ---
 
@@ -40,15 +29,14 @@ microservices-architecture-assignment/
 
 Create a virtual environment and install dependencies:
 
-```bash
+
 # Create and activate virtual environment
 python3 -m venv venv
-source venv/bin/activate    # macOS/Linux
-venv\Scripts\Activate.ps1   # Windows PowerShell
+source venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
-````
+
 
 ---
 
@@ -124,4 +112,5 @@ curl -X POST -H "Content-Type: application/json" \
 <img width="989" height="265" alt="order_service" src="https://github.com/user-attachments/assets/32727919-6fda-4f26-8dda-7ebc27eca867" />
 
 ---
+
 
